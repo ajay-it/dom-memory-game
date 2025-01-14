@@ -41,7 +41,7 @@ const handleTime = () => {
     const seconds = elapsedSeconds % 60;
     timer.innerText = `${String(minutes).padStart(2, "0")}:${String(
       seconds
-    ).padStart(2, "0")} mins`;
+    ).padStart(2, "0")}`;
   }, 1000);
 };
 
